@@ -7,8 +7,8 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(plugin = { "pretty",
-		"html:target/cucumber" }, glue = "com.czeczotka.bdd.steps", features = "classpath:cucumber/GoogleSearch.feature")
-public class CheeseTest {
+		"html:target/cucumber" }, glue = "cucumber_test.steps", features = {"classpath:cucumber"})
+public class AcceptanceTestSuite {
 
 	
 }
